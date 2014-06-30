@@ -1,0 +1,105 @@
+.portfolio-header {
+    padding: 50px 0;
+    background-color: #303746;
+    text-align: center;
+}
+
+.portfolio-header .profile-avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.portfolio-header .profile-name {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #e0e0e0;
+    font-family: 'Cantata One', Georgia, Times, serif;
+    font-weight: 400;
+}
+
+.portfolio-header .profile-description {
+    max-width: 320px;
+    font-size: 16px;
+    color: #aeb6c7;
+    margin: 0 auto 10px auto;
+}
+
+.portfolio-header .profile-location {
+    font-size: 14px;
+    color: #717f9e;
+}
+
+.glyphicon-map-marker {
+    font-size: 14px;
+    color: #717f9e;
+}
+
+/*
+    Styling that allows you to visually understand how elements
+    are positioned on the page.
+*/
+
+.elem {
+    position: relative;
+    border: solid #6AC5AC 3px;
+}
+
+/*.elem p {*/
+/*padding: 0 1em;*/
+/*}*/
+
+.elem-red {
+    border: solid red 3px;
+}
+
+.elem-red > .label, .elem-red > .endlabel {
+    color: white;
+    background-color: red;
+}
+
+.elem-orange {
+    border: solid orange 3px;
+}
+
+.elem-orange > .label, .elem-orange > .endlabel {
+    color: black;
+    background-color: orange;
+}
+
+.elem-blue {
+    border: solid blue 3px;
+}
+
+.elem-blue > .label, .elem-blue > .endlabel {
+    color: white;
+    background-color: blue;
+}
+
+.elem-brown {
+    border: solid saddlebrown 3px;
+}
+
+.elem-brown > .label, .elem-brown > .endlabel {
+    color: white;
+    background-color: saddlebrown;
+}
+
+.label, .endlabel {
+    position: absolute;
+    background-color: #6AC5AC;
+    color: #414142;
+    line-height: 1em;
+}
+
+.label {
+    top: 0;
+    left: 0;
+    padding: 0 3px 3px 0;
+}
+
+.endlabel {
+    right: 0;
+    bottom: 0;
+    padding: 3px 0 0 3px;
+}
