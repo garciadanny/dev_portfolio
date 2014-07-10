@@ -25,6 +25,7 @@ p {
     font-size: 20px;
     font-weight: lighter;
     color: grey;
+    line-height: 2em;
 }
 
 /*
@@ -76,6 +77,10 @@ p {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
     color: #5e5e5e;
+}
+
+.lang {
+    color: darkred;
 }
 
 /*
