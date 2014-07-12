@@ -117,7 +117,7 @@ body {
     height: 60px;
     background: #303746;
     position: relative;
-    margin: 20px auto 30px auto;
+    margin: 30px auto 30px auto;
 }
 .hexagon:before {
     content: "";
@@ -142,8 +142,16 @@ body {
     border-top: 25px solid #303746;
 }
 
+.content-area {
+    border: solid transparent 3px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .tool-logo {
-    position: absolute !important; /* remove important after removing .elem*/
+    position: absolute; /* add/remove !important after adding/removing .elem*/
     margin: 0 auto;
     left: 0;
     right: 0;
@@ -151,9 +159,14 @@ body {
     max-height: 55px;
 }
 
+.tools h3 {
+    color: #303746;
+}
+
 .tools p {
     font-size: 15px;
     text-align: center;
+    color: lightgrey;
 }
 
 /*
