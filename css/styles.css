@@ -2,6 +2,19 @@
     Globals
 */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    color: #5e5e5e;
+}
+
+
 hr {
     border: 0;
     height: 1px;
@@ -87,12 +100,6 @@ body {
     About me
 */
 
-.header-title {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-align: center;
-    color: #5e5e5e;
-}
-
 .lang {
     color: darkred;
 }
@@ -107,9 +114,10 @@ body {
 */
 .hexagon {
     width: 100px;
-    height: 55px;
+    height: 60px;
     background: #303746;
     position: relative;
+    margin: 20px auto 30px auto;
 }
 .hexagon:before {
     content: "";
@@ -134,18 +142,18 @@ body {
     border-top: 25px solid #303746;
 }
 
-.tool {
-    margin: 0 auto;
-}
-
 .tool-logo {
     position: absolute !important; /* remove important after removing .elem*/
     margin: 0 auto;
     left: 0;
     right: 0;
-    background-color: #303746;
     max-width: 100px;
     max-height: 55px;
+}
+
+.tools p {
+    font-size: 15px;
+    text-align: center;
 }
 
 /*
