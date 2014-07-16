@@ -105,6 +105,8 @@ body {
     margin: 15px auto 0 auto;
     font-size: 2em;
     color: #717f9e;
+    padding-right: 4px;
+    padding-left: 4px;
 }
 
 /*
@@ -177,4 +179,10 @@ body {
     font-size: 15px;
     text-align: center;
     color: lightgrey;
+}
+
+.number {
+    position: absolute;
+    bottom: 25;
+    padding-left: 1px;
 }
