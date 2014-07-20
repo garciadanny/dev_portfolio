@@ -14,6 +14,10 @@ h6
     color: #5e5e5e;
 }
 
+h3 {
+    color: #303746;
+}
+
 
 hr {
     border: 0;
@@ -171,10 +175,6 @@ body {
     max-height: 55px;
 }
 
-.tools h3 {
-    color: #303746;
-}
-
 .tools p {
     font-size: 15px;
     text-align: center;
@@ -185,4 +185,56 @@ body {
     position: absolute;
     bottom: 25;
     padding-left: 1px;
+}
+
+/*
+    Projects
+*/
+
+#project-section {
+    margin-top: 40px;
+}
+
+.project-intro {
+    cursor: pointer;
+    position: relative;
+}
+
+.project-intro > .content-area {
+    border: solid transparent 1px;
+    background-color: white;
+    box-shadow: none;
+
+}
+
+.project-description {
+    display: none;
+}
+
+.project-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.projects p {
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+}
+
+
+/*
+    Footer
+*/
+
+footer {
+    margin-top: 100px;
+}
+
+.footer p {
+    font-size: 12px;
+    text-align: center;
 }
