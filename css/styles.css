@@ -64,6 +64,12 @@ body {
     max-width: 750px;
 }
 
+.boxes p {
+    font-size: 15px;
+    text-align: center;
+    color: lightgrey;
+}
+
 /*
     Header
 */
@@ -175,12 +181,6 @@ body {
     max-height: 55px;
 }
 
-.tools p {
-    font-size: 15px;
-    text-align: center;
-    color: lightgrey;
-}
-
 .number {
     position: absolute;
     bottom: 25;
@@ -195,36 +195,22 @@ body {
     margin-top: 40px;
 }
 
-.project-intro {
-    cursor: pointer;
-    position: relative;
-}
-
 .project-intro > .content-area {
-    border: solid transparent 1px;
-    background-color: white;
-    box-shadow: none;
-
+    cursor: pointer;
 }
 
 .project-description {
     display: none;
 }
 
-.project-logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
+.project-description p {
+    color: darkgrey;
+    font-size: 18px;
 }
 
-.projects p {
-    font-size: 15px;
-    text-align: center;
-    color: grey;
+.back {
+    font-size: 25px;
 }
-
 
 /*
     Footer
